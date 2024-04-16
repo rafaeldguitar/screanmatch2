@@ -13,7 +13,7 @@ public class GoogleBooks {
         System.out.println("Digite o titulo do livro a buscar: ");
         var tituloLivro = leitura.nextLine();
 
-        String chave = "AIzaSyC3XvgC2f9kBhTY933HtuzuISa4Q_qQS0E";
+        String chave = "SUA-API";
         String endereco = "https://www.googleapis.com/books/v1/volumes?q=" + tituloLivro + "&key=" + chave;
 
         HttpClient client = HttpClient.newHttpClient();
